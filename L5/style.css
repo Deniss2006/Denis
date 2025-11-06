@@ -1,0 +1,21 @@
+body { background-color: gray;
+	font-family: Arial;
+	font-size: 16px; }
+h1,h2 { color: blue; }
+
+h3 { color: lightblue; }
+
+.text-color { color: yellow;}
+.text-center { text-align: center; }
+
+#rounded-img { border-radius: 50px; }
+
+table { border: 2px solid red;
+	border-collapse: collapse;
+	background-color: lightgreen; }
+
+th, td{	border: 1px solid pink;
+	color: magenta; }
+
+.text-lista { color: red;
+	      font-style: italic; }
