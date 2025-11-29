@@ -1,0 +1,71 @@
+body {
+	font-family: Arial;
+	font-size: 16px;
+	background-color: #F0FFFF;
+	padding: 20px;
+      }
+h2 { text-align: center; }
+h3 { text-decoration: underline; }
+h1 { text-align: center; }
+.email {
+	color: #007bff;
+	font-style: italic;	
+}
+
+.gros { font-weight: bold; }
+
+#rounded-img { border-radius: 50px }
+
+.imgc { 
+	text-align: center;
+	margin-top: 30px;
+	}
+
+.div {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	
+	width: "100%";
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+	}
+
+.titlu { text-align: center;
+	}
+
+#dblclick-trigger {
+cursor: pointer;
+color: #00008B;
+text-decoration: underline;
+margin-bottom: 20px;
+}
+
+#dblclick-trigger:hover {
+color: #0056b3;
+}
+
+#slideshow-container {
+position: relative;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+overflow: hidden;
+border: 1px solid #ccc;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: none;
+}
+
+.slide-img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: opacity 0.8s ease-in-out;
+}
+
+.active-slide {
+opacity: 1;
+}
